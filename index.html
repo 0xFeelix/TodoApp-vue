@@ -10,7 +10,13 @@
 </head>
 <body>
     
-    <div class="container" id="app">
+    <style>
+        [v-cloak] {
+            display: none;
+        }
+    </style>
+
+    <div class="container" id="app" v-cloak>
 
         <div class="card">
             <h1 :style="{
